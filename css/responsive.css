@@ -1,0 +1,16 @@
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-itmes-container{
+   flex-direction: column;
+        }
+        .nav-itmes-container a{
+            margin-top: 20px;
+        }
+        .follow-btn{
+            margin-right: 0px;
+            margin-bottom: 5px;
+        }
+}
+/* first section end */
