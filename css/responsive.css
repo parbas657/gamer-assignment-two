@@ -12,5 +12,17 @@
             margin-right: 0px;
             margin-bottom: 5px;
         }
-}
+
 /* first section end */
+.banner-container{
+    flex-direction: column;
+   
+        }
+.banner-text{
+    width: 100%;
+     }
+     .banner-img{
+        width: 100%;
+    }
+    /* second section end */
+}
