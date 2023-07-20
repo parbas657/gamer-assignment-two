@@ -23,7 +23,6 @@ width: 50%;
 .logo-container img{
     width: 40px;
     height: 20px;
-    /* object-fit: cover; */
     margin-right: 10px;
 }
 .logo-container p{
@@ -53,6 +52,7 @@ align-items: center;
     align-items: center;
 }
 /* first section eng */
+
 /* second section start */
 .banner-container{
     max-width: 1400px;
@@ -95,6 +95,102 @@ margin: 5px;
 }
 /* second section end */
 
+/* four section start */
+.banner-container-position{
+    max-width: 1400px;
+    min-height: 100%;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.text-description{
+width: 300px;
+margin: 0 auto;
+align-items: center;
+}
+.banner-img-style>img{
+    width: 50%;
+}
+.banner-img-style{
+     width:10%;
+     width: 40%;
+     position: relative;
+}
+.cartion-img{
+    width:40% ;
+     width: 150px; 
+     position: absolute;
+    bottom: -60px;
+    left: -25px;
+}
+.banner-container-position img{
+    width: 100%;
+    height: 100%;
+} 
+/* four section end */
 
+/* five section start */
+.img-decription-style{
+   max-width: 1400px;
+   min-height: 100%;
+   margin-top: 60px;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   justify-content: space-around;
+   text-align: center;
+}
+.img-decription-style>p>img{
+    width: 20px;
+}
+.img-decription-style>p>span{
+font-size: 10px;
+align-items: center;
+}
+.img-decription-style p:hover{
+border: 1px solid red;
+border-radius: 20px;
+color:#ff42a5; 
+}
+/* five section end */
 
+/* footer section start */
+.footer-section{
+    max-width: 1400px;
+    height: 50vh;
+    background-color:#000000;
+    color:#ffffff ;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+.footer-icon-sectction img{
+    width: 40px;
+    height: 20px;
+}
+.footer-icon-sectction p{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.footer-conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+
+.footer-icon{
+    display:inline;
+}
+.footer-icon img{
+    width: 35px;
+    gap:10px;
+}
+.footer-description{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 

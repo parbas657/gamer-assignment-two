@@ -24,5 +24,36 @@
      .banner-img{
         width: 100%;
     }
-    /* second section end */
+    /* four section start  */
+    .banner-container-position{
+        max-width: 1400px;
+        min-height: 100%;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .banner-img-polition{
+        width: 60%;
+    }
+    .cartion-img{
+        width:40% ;
+      
+
+    } 
+    .banner-container-position img{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    } 
+
+
+    /* five section start */
+    .img-decription-style{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+     }
+     /* five section end */
+     
+     
 }
